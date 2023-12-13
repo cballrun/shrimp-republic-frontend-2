@@ -2,9 +2,7 @@
     display: flex;
     position: absolute;
     margin-top: 1vw;
-    margin-left: 60vw;
-    /* justify-content: center;
-    align-content: center; */
+    margin-left: 65vw;
     z-index: 1;
 }
 
