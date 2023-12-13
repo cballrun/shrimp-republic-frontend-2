@@ -1,9 +1,12 @@
 .logoContainer {
     display: flex;
+    position: relative;
     margin-top: 0.6vh;
+    z-index: 1;
 }
 
 .logoImage {
     max-width: 24vh;
     max-height: 24vh;
+    
 }
