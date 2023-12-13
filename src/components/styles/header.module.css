@@ -1,5 +1,6 @@
 .header {
     display: flex;
+    flex-direction: column;
     width: 100vw;
     height: 25vh;
     background-color: #29A2CD;
@@ -20,7 +21,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    font-family: 'Monsterrat' sans-serif;
+    margin-top: 2.5vh;
+    margin-left: 10vh;
+    font-family: 'Merienda';
     font-size: 6vh;
     font-weight: bold;
     line-height: 1;

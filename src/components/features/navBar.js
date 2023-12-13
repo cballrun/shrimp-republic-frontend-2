@@ -3,12 +3,14 @@ import NavButton from './navButton'
 
 function NavBar() {
   return (
-    <div className={styles.navBar}>
+
+      <div className={styles.navBar}>
         <NavButton path={"/"} text={"HOME"}/>
         <NavButton path={"/apps"} text={"APPS"}/>
         <NavButton path={"/shop"} text={"SHOP"}/>
         <NavButton path={"/login"} text={"LOGIN"}/>
-    </div>
+      </div>
+
 
   )
 }
