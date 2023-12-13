@@ -1,7 +1,7 @@
-import styles from '../styles/home.module.css'
+import styles from '../styles/shop.module.css'
 import NavBar from '../features/navBar.js'
 
-function Home() {
+function Shop() {
     return(
 
         <div className={styles.main}>
@@ -11,4 +11,4 @@ function Home() {
 
 }
 
-export default Home
+export default Shop

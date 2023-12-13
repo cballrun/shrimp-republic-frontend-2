@@ -1,0 +1,16 @@
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2vh;
+    
+}
+
+.button{
+    color: green;
+    cursor: pointer;
+}
+
+.buttonText{
+    color: red;
+}
