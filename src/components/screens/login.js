@@ -1,11 +1,11 @@
 import styles from '../styles/login.module.css'
-import NavBar from '../features/navBar.js'
+import Header from '../features/header.js'
 
 function Login() {
+    
     return(
-
         <div className={styles.main}>
-            <NavBar/>
+            <Header/>
         </div>
     )
 

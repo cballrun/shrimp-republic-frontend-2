@@ -1,0 +1,7 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 25vh;
+    background-color: #29A2CD;
+}

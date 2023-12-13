@@ -1,11 +1,11 @@
 import styles from '../styles/apps.module.css'
-import NavBar from '../features/navBar.js'
+import Header from '../features/header.js'
 
 function Apps() {
+    
     return(
         <div className={styles.main}>
-            <NavBar/>
-
+            <Header/>
         </div>
     )
 
