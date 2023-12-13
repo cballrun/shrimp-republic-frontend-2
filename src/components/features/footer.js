@@ -1,4 +1,5 @@
 import styles from '../styles/footer.module.css'
+import IconBar from './iconBar'
 
 function Footer() {
     return (
@@ -12,6 +13,7 @@ function Footer() {
             <text className={styles.footerText}>
                WEB AND MOBILE
             </text>
+            <IconBar/>
         </div>
     )
 }

@@ -19,6 +19,7 @@
     margin-left: 11vw;
 
 }
+
 .footerTextMid {
     display: flex;
     color: #E5A272;
@@ -27,5 +28,21 @@
     font-weight: bold;
     margin-top: .75vh;
     margin-left: 11vw;
-    
+
+}
+
+.icon {
+    display: flex;
+    flex-direction:row;
+    width: 60px;
+    height: 60px;
+    margin-right: 1.5vw;
+}
+
+.iconBar {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-top: 6vh;
+    margin-right: 19vw;
 }
