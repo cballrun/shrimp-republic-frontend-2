@@ -31,11 +31,23 @@
 
 }
 
-.icon {
-    display: flex;
-    flex-direction:row;
+.chessMeitoIcon {
     width: 60px;
     height: 60px;
+    margin-right: 1.5vw;
+}
+
+.shrimpRepublicIcon {
+    width: 60px;
+    height: 58px;
+    padding-top: 0.4vh;
+    margin-right: 2vw;
+}
+
+.shoreCastsIcon {
+    width: 60px;
+    height: 52px;
+    padding-top: 0.5vh;
     margin-right: 1.5vw;
 }
 
@@ -43,6 +55,6 @@
     display: flex;
     position: absolute;
     right: 0;
-    margin-top: 6vh;
-    margin-right: 19vw;
+    margin-top: 5.5vh;
+    margin-right: 15vw;
 }
