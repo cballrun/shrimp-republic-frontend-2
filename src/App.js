@@ -1,12 +1,22 @@
 import './App.css';
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import FetchProjects from './components/apiCalls/fetchProjects'
 import Home from './components/screens/home'
 import Apps from './components/screens/apps'
 import Shop from './components/screens/shop'
 import Login from './components/screens/login'
 
 function App() {
+  const [projects, setProjects] = useState("")
+
+  useEffect(() => {
+    FetchProjects({
+        setProjects
+    })
+  }, []) 
+
+
   return (
     <div className="App">
         <Router>
