@@ -1,0 +1,60 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 16vh;
+    background-color: #29A2CD;
+    position: absolute;
+    bottom: 0;
+    
+}
+
+.footerText {
+    display: flex;
+    color: #D9D9D9;
+    font-family: 'Merienda One';
+    font-size: 3vh;
+    font-weight: bold;
+    margin-top: .75vh;
+    margin-left: 11vw;
+
+}
+
+.footerTextMid {
+    display: flex;
+    color: #E5A272;
+    font-family: 'Merienda One';
+    font-size: 3vh;
+    font-weight: bold;
+    margin-top: .75vh;
+    margin-left: 11vw;
+
+}
+
+.chessMeitoIcon {
+    width: 60px;
+    height: 60px;
+    margin-right: 1.5vw;
+}
+
+.shrimpRepublicIcon {
+    width: 60px;
+    height: 58px;
+    padding-top: 0.4vh;
+    margin-right: 2vw;
+}
+
+.shoreCastsIcon {
+    width: 60px;
+    height: 52px;
+    padding-top: 0.5vh;
+    margin-right: 1.5vw;
+}
+
+.iconBar {
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin-top: 5.5vh;
+    margin-right: 15vw;
+}

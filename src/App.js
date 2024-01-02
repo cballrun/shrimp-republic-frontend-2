@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import FetchProjects from './components/apiCalls/fetchProjects'
+import Home from './components/screens/home'
+import Apps from './components/screens/apps'
+
 
 function App() {
+  const [projects, setProjects] = useState("")
+
+  useEffect(() => {
+    FetchProjects({
+        setProjects
+    })
+  }, []) 
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home/>}/>
+            <Route path="/apps" element={<Apps/>}/>
+          </Routes>
+        </Router>
     </div>
   );
 }
