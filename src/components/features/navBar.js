@@ -6,7 +6,7 @@ function NavBar() {
 
       <div className={styles.navBar}>
         <NavButton path={"/"} text={"HOME"}/>
-        <NavButton path={"/apps"} text={"APPS"}/>
+        <NavButton path={"/projects"} text={"APPS"}/>
       </div>
 
 

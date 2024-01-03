@@ -1,8 +1,9 @@
-import styles from '../styles/apps.module.css'
+import styles from '../styles/team.module.css'
 import Header from '../features/header.js'
 import Footer from '../features/footer.js'
 
-function Apps() {
+
+function Team() {
     
     return(
         <div className={styles.main}>
@@ -13,4 +14,4 @@ function Apps() {
 
 }
 
-export default Apps
+export default Team

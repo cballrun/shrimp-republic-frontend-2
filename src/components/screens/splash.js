@@ -1,10 +1,11 @@
-import styles from '../styles/home.module.css'
+import styles from '../styles/splash.module.css'
 import Header from '../features/header.js'
 import Footer from '../features/footer.js'
+import { useState } from 'react'
 
+function Splash({projects}) {
+    const [active, setActive] = useState(0)
 
-function Home() {
-    
     return(
         <div className={styles.main}>
             <Header/>
@@ -14,4 +15,4 @@ function Home() {
 
 }
 
-export default Home
+export default Splash
