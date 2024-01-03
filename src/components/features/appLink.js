@@ -64,20 +64,27 @@ function AppLink({
                     <div className={styles.description}>
                       {description}
                     </div>
+                    <div className={styles.featuresStageRow}>
                     <div className={styles.featuresRow}>
                       <div className={styles.featuresHeader}>
                         Features
                       </div>
                       <ul className={styles.features}>
-                            {appFeatures.map((feature) => 
-                              <li>
-                                {feature}
-                              </li>
-                            )
-                            }
-                       
+                        {appFeatures.map((feature) => 
+                          <li>
+                            {feature}
+                          </li>
+                          )
+                        }
                       </ul>
                     </div>
+                    <div className={styles.stage}>
+                      {`Stage - ${stage}`}
+                    </div>
+                  </div>
+                  <div className={styles.toolsRow}>
+                    Tools
+                  </div>
                   </div>
                   :
                   null
