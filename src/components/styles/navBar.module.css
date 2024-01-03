@@ -1,6 +1,16 @@
 .navBar {
     display: flex;
     flex-direction: row;
-    margin-left: 16vw;
+    margin-left: 22vw;
     margin-top: 3vh;
+}
+
+.wahooLogo {
+    height: 9vh;
+    width: 23vw;
+    z-index: 0;
+    position: absolute;
+    left: 19.75vw;
+    top: 17vh;
+    opacity: 0.3;
 }
