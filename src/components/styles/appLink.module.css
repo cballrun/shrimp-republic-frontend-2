@@ -6,8 +6,10 @@
 }
 
 .description {
-  color: blueviolet;
+  color: black;
+  margin-bottom: 1vh;
 }
+
 .details {
   width: 70vw;
   display: flex;
@@ -22,6 +24,13 @@
   padding: 1vh;
   margin-bottom: 1vh;
 }
+
+.featuresStageRow {
+  display: flex;
+  flex-direction: row;
+  color: black;
+}
+
 .inactiveArrow {
   height: 3vh;
   width: 3vh;
@@ -68,4 +77,9 @@
   align-items: center;
   margin-left: 20vw;
   margin-bottom: 1vh;
+}
+
+.stage {
+  margin-left: 5vw;
+  align-self: center;
 }
