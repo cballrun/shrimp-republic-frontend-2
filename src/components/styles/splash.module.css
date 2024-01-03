@@ -1,5 +1,7 @@
 .main{
-    color: red;   
+    color: red;
+    min-height: 100vh;
+    position: relative;      
    }
 
 .links {
