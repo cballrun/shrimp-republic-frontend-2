@@ -48,7 +48,7 @@ function AppLink({
               isActive() || active === 0 ?
             <div className={styles.link}>
               <div className={isActive() ? styles.activeTitleRow : styles.inactiveTitleRow}>
-                <img src={imageHash[name]} className={styles.logo}/>
+                <img src={imageHash[name]} className={isActive() ? styles.activeLogo : styles.inactiveLogo}/>
                 <div className={styles.name}>
                     {name}
                 </div>
@@ -82,9 +82,9 @@ function AppLink({
                       {`Stage - ${stage}`}
                     </div>
                   </div>
-                  <div className={styles.toolsRow}>
-                    Tools
-                  </div>
+                    <div className={styles.toolsRow}>
+                      Tools
+                    </div>
                   </div>
                   :
                   null
