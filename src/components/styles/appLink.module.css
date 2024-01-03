@@ -1,0 +1,20 @@
+.arrow {
+    height: 3vh;
+    width: 3vh;
+    cursor: pointer;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Monteserrat', sans-serif;
+    margin-top: 5vh;
+}
+
+.name {
+    font-size: 3vh;
+    color: #29A2CD;
+    font-weight: 600;
+}
