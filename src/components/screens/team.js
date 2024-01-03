@@ -1,9 +1,9 @@
-import styles from '../styles/home.module.css'
+import styles from '../styles/team.module.css'
 import Header from '../features/header.js'
 import Footer from '../features/footer.js'
 
 
-function Home() {
+function Team() {
     
     return(
         <div className={styles.main}>
@@ -14,4 +14,4 @@ function Home() {
 
 }
 
-export default Home
+export default Team
