@@ -40,6 +40,7 @@ function AppLink({
         setActive(index + 1)
       }
     }
+    const appFeatures = JSON.parse(features)
 
     return (
           <div className={styles.main}>
@@ -67,9 +68,15 @@ function AppLink({
                       <div className={styles.featuresHeader}>
                         Features
                       </div>
-                      <div className={styles.features}>
-                      feee
-                      </div>
+                      <ul className={styles.features}>
+                            {appFeatures.map((feature) => 
+                              <li>
+                                {feature}
+                              </li>
+                            )
+                            }
+                       
+                      </ul>
                     </div>
                   </div>
                   :
