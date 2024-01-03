@@ -1,9 +1,10 @@
+.links {
+  margin-top: 15vh;
+}
 .main{
-    color: red;   
+    color: red; 
+    min-height: 100vh;
    }
 
-.links {
-    margin-top: 15vh;
-   }
 
    
