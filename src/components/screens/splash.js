@@ -11,8 +11,8 @@ function Splash({projects}) {
             <Header/>
             <div className={styles.splashText}>
                 <div className={styles.exploreText}>
-                    <span className={styles.exploreTop}>EXPLORE SHRIMP</span>
-                    <span className={styles.exploreBottom}>REPUBLIC</span>
+                    <div className={styles.exploreTop}>EXPLORE SHRIMP </div>
+                    <div className={styles.exploreBottom}>REPUBLIC</div>
                 </div>
             </div>
             <Footer/>

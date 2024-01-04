@@ -5,9 +5,25 @@
 
 .splashText {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 70vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 30vh;
+    padding-left: 13vw;
+}
+
+.exploreText {
+    text-align: left;
+    font-family: 'Monsterrat', sans-serif;
+    color: black;
+}
+.exploreTop {
+    font-size: 4vh;
+    font-weight: bold;
+}
+.exploreBottom {
+    font-size: 4vh ;
+    font-weight: bold;
 }
 
 
