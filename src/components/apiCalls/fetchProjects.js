@@ -9,17 +9,27 @@ export default function FetchProjects({
     },
     body: JSON.stringify({
         query:
-            `query {
-                projects{
-                    name
-                    url
-                    description
-                    features
-                    classification
-                    stage
-                    start
-                    end
-                }}`,
+          `query {
+            projects {
+                id
+                name
+                url
+                description
+                features
+                classification
+                stage
+                start
+                end
+                projectTools {
+                    id
+                    tool {
+                        id
+                        name
+                        url
+                    }
+                }
+            }
+        }`,
     }),
 }, [])
 .then((response) => {

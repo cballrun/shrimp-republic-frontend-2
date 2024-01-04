@@ -25,6 +25,7 @@ function Projects({projects}) {
                       projectUrl={project.url}
                       endDate={project.end}
                       startDate={project.start}
+                      projectTools={project.projectTools}
                       />
                 )}
 
