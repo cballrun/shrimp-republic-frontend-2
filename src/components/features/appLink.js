@@ -106,19 +106,20 @@ function AppLink({
                         }
                       </ul>
                     </div>
-                    <div className={styles.stage}>
-                      {`Stage - ${stage}`}
+                    <div className={styles.stageToolsColumn}>
+                      <div className={styles.stage}>
+                        {`Stage - ${stage}`}
+                      </div>
+                      <div className={styles.toolsHeader}>
+                        Project Tools
+                      </div>
+                      <div className={styles.toolsRow}>
+                        {projectTools.map((projectTool) => 
+                          <img src={toolsDictionary[projectTool.tool.name]} className={styles.toolLogo}/>
+                        )}
+                      </div>
                     </div>
-                  </div>
-                    <div className={styles.toolsHeader}>
-                      Project Tools
-                    </div>
-                    <div className={styles.toolsRow}>
-
-                      {projectTools.map((projectTool) => 
-                        <img src={toolsDictionary[projectTool.tool.name]} className={styles.toolLogo}/>
-                      )}
-                    </div>
+                   </div>
                   </div>
                   :
                   null
