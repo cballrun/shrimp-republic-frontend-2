@@ -3,7 +3,7 @@
     
    }
 
-.splashText {
+.splashTextUpper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,18 +12,24 @@
     padding-left: 13vw;
 }
 
-.exploreText {
+.exploreBox {
     text-align: left;
     font-family: 'Monsterrat', sans-serif;
     color: black;
 }
-.exploreTop {
+.exploreText {
     font-size: 4vh;
     font-weight: bold;
 }
-.exploreBottom {
-    font-size: 4vh ;
-    font-weight: bold;
+
+.splashTextLower {
+    margin-top: 2vh;
+    color: #0075be;
+}
+
+.appText {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1vh;
 }
 
 

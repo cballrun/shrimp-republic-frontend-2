@@ -9,10 +9,19 @@ function Splash({projects}) {
     return(
         <div className={styles.main}>
             <Header/>
-            <div className={styles.splashText}>
-                <div className={styles.exploreText}>
-                    <div className={styles.exploreTop}>EXPLORE SHRIMP </div>
-                    <div className={styles.exploreBottom}>REPUBLIC</div>
+            <div className={styles.splashTextUpper}>
+                <div className={styles.exploreBox}>
+                    <div className={styles.exploreText}>EXPLORE SHRIMP </div>
+                    <div className={styles.exploreText}>REPUBLIC</div>
+                </div>
+                <div className={styles.splashTextLower}>
+                    <div className={styles.appText}>
+                        WHETHER YOU'RE ENJOYING CHESSMEITO'S PUZZLES OR PLANNING A FISHING TRIP WITH SHORECASTS,
+                        OUR APPLICATIONS ARE PURPOSE BUILT FOR REAL WORLD USE
+                    </div>
+                    <div className={styles.appText}>
+                        WHERE TECHNICAL EXPERTISE MEETS EVERYDAY UTILITY.
+                    </div>
                 </div>
             </div>
             <Footer/>
