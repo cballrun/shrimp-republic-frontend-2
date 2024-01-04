@@ -110,7 +110,9 @@ function AppLink({
                       {`Stage - ${stage}`}
                     </div>
                   </div>
-                    Project Tools
+                    <div className={styles.toolsHeader}>
+                      Project Tools
+                    </div>
                     <div className={styles.toolsRow}>
 
                       {projectTools.map((projectTool) => 
