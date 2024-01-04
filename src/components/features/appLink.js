@@ -4,6 +4,18 @@ import chessMeitoLogo from '../images/chessMeitoLogo.png'
 import pTradeLogo from '../images/pTradeLogo.png'
 import gameDriveLogo from '../images/gameDriveLogo.png'
 import shoreCastsLogo from '../images/shoreCastsLogo.png'
+import railsLogo from '../images/railsLogo.png'
+import androidLogo from '../images/androidLogo.png'
+import goJs from '../images/goJs.png'
+import awsLogo from '../images/awsLogo.png'
+import graphQlLogo from '../images/graphQlLogo.png'
+import jsLogo from '../images/jsLogo.png'
+import postgresLogo from '../images/postgresLogo.png'
+import reactLogo from '../images/reactLogo.png'
+import testFlightLogo from '../images/testFlightLogo.png'
+import playStoreLogo from '../images/playStoreLogo.png'
+import pythonLogo from '../images/pythonLogo.png'
+import figmaLogo from '../images/figmaLogo.png'
 
 function AppLink({
     index,
@@ -16,7 +28,8 @@ function AppLink({
     name, 
     stage,
     startDate,
-    projectUrl
+    projectUrl,
+    projectTools
   }) {
     const imageHash = {
       "ChessMeito": chessMeitoLogo,
@@ -24,6 +37,21 @@ function AppLink({
       "P-Trade": pTradeLogo,
       "Game Drive": gameDriveLogo
     } 
+    
+    const toolsDictionary = {
+      "Ruby on Rails": railsLogo,
+      "AWS": awsLogo,
+      "Go": goJs,
+      "Android": androidLogo,
+      "Google Play": playStoreLogo,
+      "Test Flight": testFlightLogo,
+      "JavaScript": jsLogo,
+      "PostgreSQL": postgresLogo,
+      "GraphQL": graphQlLogo,
+      "React": reactLogo,
+      "Python": pythonLogo,
+      "Figma": figmaLogo
+    }
 
     const isActive = () => {
       if(active === index + 1) {
@@ -41,7 +69,7 @@ function AppLink({
       }
     }
     const appFeatures = JSON.parse(features)
-
+    console.log("Project Tools:", projectTools)
     return (
           <div className={styles.main}>
             {
@@ -82,8 +110,12 @@ function AppLink({
                       {`Stage - ${stage}`}
                     </div>
                   </div>
+                    Project Tools
                     <div className={styles.toolsRow}>
-                      Tools
+
+                      {projectTools.map((projectTool) => 
+                        <img src={toolsDictionary[projectTool.tool.name]} className={styles.toolLogo}/>
+                      )}
                     </div>
                   </div>
                   :
