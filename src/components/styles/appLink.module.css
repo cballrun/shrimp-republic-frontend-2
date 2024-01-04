@@ -23,17 +23,23 @@
   padding-right: 2vh;
   padding-left: 2vh;
   border-radius: 12px;
-  
 }
 
 .description {
   color: black;
   margin-bottom: 1vh;
   padding: 1vh;
+  padding-right: 3vw;
+  padding-left: 3vw;
 }
 
 .details {
-  width: 70vw;
+  width: fit-content;
+  max-width: 80vw;
+  height: fit-content;
+  max-height: min-content;
+  margin-left: 2vh;
+  margin-right: 2vh;
   display: flex;
   flex-direction: column;
   justify-content: left;
@@ -55,7 +61,7 @@
 
 .featuresHeader {
   font-weight: bold;
-  margin-left: 2vh;
+  margin-left: 3vw;
   font-size: large;
 }
 
@@ -86,6 +92,7 @@
   margin-left: 20vw;
   margin-bottom: 1vh;
 }
+
 .link {
   display: flex;
   flex-direction: column;
@@ -104,21 +111,31 @@
 }
 
 .stage {
-  margin-left: 5vw;
-  align-self: center;
+  margin-left: 10vw;
+  align-self: left;
   font-weight: bold;
-  font-size: large;
+  font-size: larger;
+  margin-bottom: 5vh;
+  white-space: nowrap;
+}
+
+.stageToolsColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: space-between;
+  width: 30vw;
 }
 
 .toolLogo {
-  height: auto;
-  width: 4vw;
-  margin-right: 2vh;
+  height: 4.5vh;
+  width: 4.5vh;
+  margin-right: 2vw;
 }
 
 .toolsHeader {
   color: black;
-  margin-left: 2vh;
+  margin-left: 5vh;
   margin-bottom: 1vh;
   font-weight: bold;
   font-size: large;
