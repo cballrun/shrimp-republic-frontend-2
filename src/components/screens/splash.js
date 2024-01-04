@@ -1,6 +1,7 @@
 import styles from '../styles/splash.module.css'
 import Header from '../features/header.js'
 import Footer from '../features/footer.js'
+import grouperLogo from '../images/grouperLogo.png'
 import { useState } from 'react'
 
 function Splash({projects}) {
@@ -42,6 +43,7 @@ function Splash({projects}) {
                     MEETS EVERYDAY UTILITY.
                 </div>
             </div>
+            <img src={grouperLogo} alt="Grouper Logo" className={styles.grouperLogo} />
             <Footer/>
         </div>
     )
