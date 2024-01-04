@@ -1,6 +1,6 @@
 import styles from '../styles/member.module.css'
 import chaseHeadshot from '../images/chaseHeadshot.png'
-import carterHeadshot from '../images/awsLogo.png'
+import carterHeadshot from '../images/carterHeadshot.png'
 
 function Member({member}) {
   const headshotDisctionary = {
@@ -17,7 +17,6 @@ function Member({member}) {
         <div className={styles.location}>
           {`Geographical Location: ${member.location}`} 
         </div>
-
       </div>
       <div className={styles.imageColumn}>
         <img src={headshotDisctionary[member.name]} className={styles.headshot}/>
