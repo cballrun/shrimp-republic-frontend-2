@@ -16,11 +16,29 @@ function Splash({projects}) {
                 </div>
                 <div className={styles.splashTextLower}>
                     <div className={styles.appText}>
-                        WHETHER YOU'RE ENJOYING CHESSMEITO'S PUZZLES OR PLANNING A FISHING TRIP WITH SHORECASTS,
-                        OUR APPLICATIONS ARE PURPOSE BUILT FOR REAL WORLD USE
+                        WHETHER YOU'RE ENJOYING
                     </div>
                     <div className={styles.appText}>
-                        WHERE TECHNICAL EXPERTISE MEETS EVERYDAY UTILITY.
+                        CHESSMEITO'S PUZZLES OR
+                    </div>
+                    <div className={styles.appText}>
+                        PLANNING A FISHING TRIP WITH
+                    </div>
+                    <div className={styles.appText}>
+                        SHORECASTS, OUR APPLICATIONS
+                    </div>
+                    <div className={styles.appText}>
+                        ARE PURPOSE-BUILT FOR REAL-
+                    </div>
+                    <div className={styles.appText}>
+                        WORLD USE.
+                    </div>
+                    <div className={styles.bottomAppText}>
+                        <br></br>
+                        WHERE TECHNICAL EXPERTISE
+                    </div>
+                    <div className={styles.bottomAppText}>
+                        MEETS EVERYDAY UTILITY.
                     </div>
                 </div>
             </div>

@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    height: 30vh;
+    height: 45vh;
     padding-left: 13vw;
 }
 
@@ -28,6 +28,10 @@
 }
 
 .appText {
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 1vh;
+}
+.bottomAppText {
     font-family: 'Monsterrat', sans-serif;
     font-size: 1vh;
 }
