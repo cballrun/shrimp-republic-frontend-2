@@ -5,6 +5,11 @@
     transform: rotate(90deg);
 }
 
+.toolLogo {
+  height: auto;
+  width: 4vh;
+}
+
 .description {
   color: black;
   margin-bottom: 1vh;
