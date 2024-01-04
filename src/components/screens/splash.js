@@ -9,6 +9,12 @@ function Splash({projects}) {
     return(
         <div className={styles.main}>
             <Header/>
+            <div className={styles.splashText}>
+                <div className={styles.exploreText}>
+                    <span className={styles.exploreTop}>EXPLORE SHRIMP</span>
+                    <span className={styles.exploreBottom}>REPUBLIC</span>
+                </div>
+            </div>
             <Footer/>
         </div>
     )
