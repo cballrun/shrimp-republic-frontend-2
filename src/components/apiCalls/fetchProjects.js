@@ -2,7 +2,7 @@ export default function FetchProjects({
     setProjects
 
 }) {
-    return fetch('http://localhost:4000/graphql', {
+    return fetch('https://api.shrimp-republic.com/graphql', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
