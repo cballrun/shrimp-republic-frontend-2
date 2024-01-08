@@ -1,0 +1,14 @@
+.main{
+    color: black;   
+    
+   }
+
+.members {
+  max-width: 80vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  margin-left: 8vw;
+}

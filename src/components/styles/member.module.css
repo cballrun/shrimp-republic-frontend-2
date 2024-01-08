@@ -1,0 +1,40 @@
+.description {
+  font-weight: 400;
+}
+
+.descriptionLocationColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 55vw;
+  text-align: left;
+}
+
+.headshot {
+  height: auto;
+  width: 6.5vw;
+  border-radius: 10px;
+  margin-bottom: 1vh;
+}
+
+.imageColumn {
+  display: flex;
+  flex-direction: column;  
+  white-space: nowrap;
+  width: 15vw;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1vw;
+  margin-left: 3vw;
+}
+
+.main {
+  color: #29A2CD;
+  font-family: 'Monteserrat', sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5vh;
+  padding-bottom: 1vh;
+  border-bottom: 1vh #29A2CD solid;
+}

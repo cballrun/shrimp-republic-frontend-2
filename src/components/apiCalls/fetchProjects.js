@@ -2,24 +2,34 @@ export default function FetchProjects({
     setProjects
 
 }) {
-    return fetch('http://localhost:4000/graphql', {
+    return fetch('https://api.shrimp-republic.com/graphql', {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
     },
     body: JSON.stringify({
         query:
-            `query {
-                projects{
-                    name
-                    url
-                    description
-                    features
-                    classification
-                    stage
-                    start
-                    end
-                }}`,
+          `query {
+            projects {
+                id
+                name
+                url
+                description
+                features
+                classification
+                stage
+                start
+                end
+                projectTools {
+                    id
+                    tool {
+                        id
+                        name
+                        url
+                    }
+                }
+            }
+        }`,
     }),
 }, [])
 .then((response) => {
