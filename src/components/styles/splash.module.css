@@ -45,7 +45,8 @@
 
 .grouperLogo {
     height: auto;
-    width: 38vw;
+    max-width: 38vw;
+    min-width: 10vw;
     position: absolute;
     top: 46vh;
     right: 19vw;
