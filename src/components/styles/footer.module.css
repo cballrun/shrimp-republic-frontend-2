@@ -31,8 +31,8 @@
 }
 
 .chessMeitoIcon {
-    max-width: 3.77vw;
-    max-height: 7.04vh;
+    max-width: 4.71vw;
+    max-height: 8.8vh;
     min-width: 1.89vw;
     min-height: 3.52vh;
     margin-right: 2vw;
@@ -40,15 +40,19 @@
 }
 
 .shrimpRepublicIcon {
-    max-width: 3.54vw;
-    max-height: 6.34vh;
+    max-width: 4.43vw;
+    max-height: 7.93vh;
+    min-width: 1.77vw;
+    min-height: 3.17vh;
     padding-top: 0.75vh;
     margin-right: 2vw;
 }
 
 .shoreCastsIcon {
-    max-width: 3.68vw;
-    max-height: 5.99vh;
+    max-width: 4.6vw;
+    max-height: 7.49vh;
+    min-width: 1.84vw;
+    min-height: 3.0vh;
     padding-top: 0.75vh;
     padding-right: 2.25vw;
 }
