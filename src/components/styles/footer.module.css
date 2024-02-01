@@ -31,24 +31,33 @@
 }
 
 .chessMeitoIcon {
-    width: 80px;
-    height: 80px;
+    max-width: 4.71vw;
+    max-height: 8.8vh;
+    min-width: 1.89vw;
+    min-height: 3.52vh;
     margin-right: 2vw;
     margin-bottom: 1.25vw;
+    pointer-events: none;
 }
 
 .shrimpRepublicIcon {
-    width: 75px;
-    height: 72px;
+    max-width: 4.43vw;
+    max-height: 7.93vh;
+    min-width: 1.77vw;
+    min-height: 3.17vh;
     padding-top: 0.75vh;
     margin-right: 2vw;
+    pointer-events: none;
 }
 
 .shoreCastsIcon {
-    width: 78px;
-    height: 68px;
+    max-width: 4.6vw;
+    max-height: 7.49vh;
+    min-width: 1.84vw;
+    min-height: 3.0vh;
     padding-top: 0.75vh;
     padding-right: 2.25vw;
+    pointer-events: none;
 }
 
 .iconBar {
