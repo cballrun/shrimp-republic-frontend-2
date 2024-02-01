@@ -4,10 +4,11 @@
     margin-top: 1vw;
     margin-left: 65vw;
     z-index: 1;
+    pointer-events: none;
 }
 
 .logoImage {
     max-width: 28vh;
     max-height: 28vh;
-    
+    pointer-events: none;
 }

@@ -50,6 +50,7 @@
     top: 46vh;
     right: 19vw;
     opacity: 0.4;
+    pointer-events: none;
 }
 
 

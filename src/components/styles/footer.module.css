@@ -35,6 +35,7 @@
     height: 80px;
     margin-right: 2vw;
     margin-bottom: 1.25vw;
+    pointer-events: none;
 }
 
 .shrimpRepublicIcon {
@@ -42,6 +43,7 @@
     height: 72px;
     padding-top: 0.75vh;
     margin-right: 2vw;
+    pointer-events: none;
 }
 
 .shoreCastsIcon {
@@ -49,6 +51,7 @@
     height: 68px;
     padding-top: 0.75vh;
     padding-right: 2.25vw;
+    pointer-events: none;
 }
 
 .iconBar {
