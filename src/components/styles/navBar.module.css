@@ -6,11 +6,11 @@
 }
 
 .wahooLogo {
-    height: 9vh;
-    width: 23vw;
+    height: 9.5vh;
+    min-width: 23vw;
     z-index: 0;
     position: absolute;
-    left: 19.75vw;
+    left: 19vw;
     top: 17vh;
     opacity: 0.3;
     pointer-events: none;
