@@ -15,6 +15,7 @@
   width: 6.5vw;
   border-radius: 10px;
   margin-bottom: 1vh;
+  pointer-events: none;
 }
 
 .imageColumn {

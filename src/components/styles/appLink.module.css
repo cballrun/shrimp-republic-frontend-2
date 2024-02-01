@@ -9,6 +9,7 @@
   height: auto;
   width: 6vh;
   margin-right: 1vw;
+  pointer-events: none;
 }
 
 .activeTitleRow {
@@ -81,6 +82,7 @@
   height: auto;
   width: 5vh;
   margin-right: 1vw;
+  pointer-events: none;
 }
 
 .inactiveTitleRow {
@@ -131,6 +133,7 @@
   height: 4.5vh;
   width: 4.5vh;
   margin-right: 2vw;
+  pointer-events: none;
 }
 
 .toolsHeader {

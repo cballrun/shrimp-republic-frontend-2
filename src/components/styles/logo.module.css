@@ -1,14 +1,17 @@
 .logoContainer {
     display: flex;
     position: absolute;
-    margin-top: 1vw;
-    margin-left: 65vw;
+    margin-top: 2.5vh;
+    margin-left: 70vw;
     z-index: 1;
+    pointer-events: none;
 }
 
 .logoImage {
     max-width: 28vw;
     max-height: 28vh;
+    pointer-events: none;
     min-width: 3.5vw;
     min-height: 3.5vh;
+    opacity: 0.8;
 }
