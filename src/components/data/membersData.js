@@ -1,4 +1,4 @@
-const Members = [
+const membersData = [
     {
         name: "Chase Gaddis", 
         location: "St. Petersburg, FL", 
@@ -12,5 +12,5 @@ const Members = [
     }
 ]
 
-export default Members
+export default membersData
 

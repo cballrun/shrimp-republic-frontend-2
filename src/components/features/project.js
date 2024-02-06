@@ -1,4 +1,4 @@
-import styles from '../styles/appLink.module.css'
+import styles from '../styles/project.module.css'
 import arrow from '../images/triangle-cyan.png'
 import chessMeitoLogo from '../images/chessMeitoLogo.png'
 import pTradeLogo from '../images/pTradeLogo.png'
@@ -17,7 +17,7 @@ import playStoreLogo from '../images/playStoreLogo.png'
 import pythonLogo from '../images/pythonLogo.png'
 import figmaLogo from '../images/figmaLogo.png'
 
-function AppLink({
+function Project({
     index,
     active, 
     setActive, 
@@ -29,11 +29,11 @@ function AppLink({
     stage,
     startDate,
     projectUrl,
-    projectTools
+    techs
   }) {
     const imageHash = {
       "ChessMeito": chessMeitoLogo,
-      "Shorecasts": shoreCastsLogo,
+      "ShoreCasts": shoreCastsLogo,
       "P-Trade": pTradeLogo,
       "Game Drive": gameDriveLogo
     } 
@@ -68,8 +68,7 @@ function AppLink({
         setActive(index + 1)
       }
     }
-    const appFeatures = JSON.parse(features)
-    console.log("Project Tools:", projectTools)
+    console.log("Project Tools:", techs)
     return (
           <div className={styles.main}>
             {
@@ -98,7 +97,7 @@ function AppLink({
                         Features
                       </div>
                       <ul className={styles.features}>
-                        {appFeatures.map((feature) => 
+                        {features.map((feature) => 
                           <li>
                             {feature}
                           </li>
@@ -114,8 +113,8 @@ function AppLink({
                         Project Tools
                       </div>
                       <div className={styles.toolsRow}>
-                        {projectTools.map((projectTool) => 
-                          <img src={toolsDictionary[projectTool.tool.name]} className={styles.toolLogo}/>
+                        {techs.map((tech) => 
+                          <img src={toolsDictionary[tech]} className={styles.toolLogo}/>
                         )}
                       </div>
                     </div>
@@ -136,4 +135,4 @@ function AppLink({
     )
 }
 
-export default AppLink
+export default Project
