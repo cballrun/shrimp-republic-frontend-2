@@ -4,10 +4,8 @@ import Footer from '../features/footer.js'
 import SplashUpper from '../features/splashUpper.js'
 import SplashLower from '../features/splashLower.js'
 import grouperLogo from '../images/grouperLogo.png'
-import { useState } from 'react'
 
-function Splash({projects}) {
-    const [active, setActive] = useState(0)
+function Splash() {
 
     return(
         <div className={styles.main}>

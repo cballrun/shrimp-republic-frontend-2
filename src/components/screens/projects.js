@@ -1,18 +1,19 @@
 import styles from '../styles/projects.module.css'
 import Header from '../features/header.js'
 import Footer from '../features/footer.js'
-import AppLink from '../features/appLink.js'
+import Project from '../features/project.js'
 import { useState } from 'react'
+import projectsData from '../data/projectsData.js'
 
-function Projects({projects}) {
+function Projects() {
     const [active, setActive] = useState(0)
 
     return(
         <div className={styles.main}>
             <Header/>
             <div className={styles.links}>
-                {projects.map((project, index) => 
-                    <AppLink 
+                {projectsData.map((project, index) => 
+                    <Project 
                       key={index}
                       index={index}
                       active={active}
@@ -25,7 +26,7 @@ function Projects({projects}) {
                       projectUrl={project.url}
                       endDate={project.end}
                       startDate={project.start}
-                      projectTools={project.projectTools}
+                      techs={project.techs}
                       />
                 )}
 
