@@ -1,11 +1,12 @@
 .footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100vw;
     height: 16vh;
     background-color: #29A2CD;
     position: absolute;
     bottom: 0;
+    justify-content: space-around;
 }
 
 .footerText {
@@ -36,7 +37,6 @@
     min-width: 1.89vw;
     min-height: 3.52vh;
     margin-right: 2vw;
-    margin-bottom: 1.25vw;
     pointer-events: none;
 }
 
@@ -62,8 +62,34 @@
 
 .iconBar {
     display: flex;
-    position: absolute;
-    right: 0;
-    margin-top: 4.5vh;
-    margin-right: 18vw;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.infoHeader {
+  color: #D9D9D9;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 1.75vh;
+  margin-bottom: .25vh;
+}
+
+.infoText {
+  color: #D9D9D9;
+  font-weight: 300;
+  font-size: 1.5vh;
+  margin-bottom: .25vh;
 }
