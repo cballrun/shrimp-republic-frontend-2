@@ -6,8 +6,6 @@ import Splash from './components/screens/splash'
 import Projects from './components/screens/projects'
 
 function App() {
-  
-
   return (
     <div className="App">
         <Router>

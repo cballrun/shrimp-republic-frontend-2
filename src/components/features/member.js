@@ -15,7 +15,7 @@ function Member({member}) {
           {member.description}
         </div>
         <div className={styles.location}>
-          {`Geographical Location: ${member.location}`} 
+          {member.location} 
         </div>
       </div>
       <div className={styles.imageColumn}>
