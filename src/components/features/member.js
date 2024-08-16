@@ -10,17 +10,15 @@ function Member({member}) {
 
   return (  
     <div className={styles.main}>
-      <div className={styles.descriptionLocationColumn}>
+      <div className={styles.imageColumn}>
+        <img src={headshotDisctionary[member.name]} className={styles.headshot}/>
+        {member.name}
         <div className={styles.description}>
           {member.description}
         </div>
         <div className={styles.location}>
           {member.location} 
         </div>
-      </div>
-      <div className={styles.imageColumn}>
-        <img src={headshotDisctionary[member.name]} className={styles.headshot}/>
-        {member.name}
       </div>
     </div>
   )
