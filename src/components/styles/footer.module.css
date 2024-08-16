@@ -113,3 +113,31 @@
     margin-left: 6vw; 
   }
 }
+
+@media (max-width: 500px) {
+  .iconBar {
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 5vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .shrimpRepublicIcon {
+    max-width: 7vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .chessMeitoIcon {
+    max-width: 7vw;
+    padding-right: 0.5vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .shoreCastsIcon {
+    max-width: 7vw;
+    padding-left: 0.75vw;
+  }
+}
