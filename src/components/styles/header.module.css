@@ -38,16 +38,6 @@
     color: #D9D9D9;
 }
 
-@media (max-width: 768px) {
-    .header {
-        display: flex;
-        flex-direction: column;
-        width: 100vw;
-        height: 25vh;
-        background-color: #29A2CD;
-    }
-}
-
 @media (max-width: 500px) {
     .header::before {
         content: '';
