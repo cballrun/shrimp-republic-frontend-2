@@ -47,4 +47,35 @@
   right: 19vw;
   opacity: 0.4;
   pointer-events: none;
-}  
+}
+
+@media (max-width: 500px) {
+  .grouperLogo {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .exploreText {
+    font-size: 4.5vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .exploreBox {
+    margin-top: -6vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .splashTextLower {
+    margin-top: -12vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .appText {
+    font-size: 2vh
+  }
+}
+
