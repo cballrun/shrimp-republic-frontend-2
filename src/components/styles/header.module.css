@@ -37,3 +37,35 @@
 .bottomHeaderText{
     color: #D9D9D9;
 }
+
+@media (max-width: 768px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        height: 25vh;
+        background-color: #29A2CD;
+    }
+}
+
+@media (max-width: 500px) {
+    .header::before {
+        content: '';
+        position: absolute;
+        top: 24vh;
+        right: 0;
+        border-top: 3vh solid #29A2CD; 
+        border-left: 160vw solid transparent; 
+        width: 0;
+        height: 0; 
+    }
+}
+
+@media (max-width: 500px) {
+    .headerText {
+        font-size: 4.5vh;
+        margin-top: 6vh; 
+    }
+}
+
+

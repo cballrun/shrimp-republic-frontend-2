@@ -5,6 +5,11 @@
     margin-top: 3vh;
 }
 
+.logoContainer {
+    z-index: 0; /* Behind the buttons */
+}
+
+
 .wahooLogo {
     height: 9.5vh;
     min-width: 23vw;
@@ -14,4 +19,12 @@
     top: 17vh;
     opacity: 0.3;
     pointer-events: none;
+}
+
+@media (max-width: 500px) {
+    .wahooLogo {
+        height: 7vh; 
+        min-width: 15vw; 
+        top: 16vh; 
+    }
 }

@@ -15,3 +15,21 @@
     min-height: 3.5vh;
     opacity: 0.8;
 }
+
+@media (max-width: 500px) {
+    .logoContainer {
+        margin-left: 67vw;
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .logoImage {
+        max-width: 24vw;
+        max-height: 24vh;
+        pointer-events: none;
+        min-width: 3.5vw;
+        min-height: 3.5vh;
+        opacity: 0.8;
+    }
+}
