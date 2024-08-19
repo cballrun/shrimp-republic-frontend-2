@@ -36,3 +36,9 @@
   font-size: 1.5vh;
   margin-bottom: .25vh;
 }
+
+@media (max-width: 500px) {
+  .infoColumn {
+    margin-top: 5vh;
+  }
+}

@@ -41,3 +41,16 @@
   color: #E5A272;
   -webkit-text-stroke: 1px #29A2CD;
 }
+
+@media (max-width: 500px) {
+  .headshot {
+    max-height: 15vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .mainColumn {
+    max-height: 10vh;
+    width: 35vw;
+  }
+}
