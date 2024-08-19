@@ -1,10 +1,10 @@
-import styles from '../styles/team.module.css'
+import styles from '../styles/about.module.css'
 import Header from '../features/header.js'
 import Footer from '../features/footer.js'
 import Member from '../features/member.js'
 import membersData from '../data/membersData.js'
 
-function Team() {  
+function About() {  
   return(
     <div className={styles.main}>
       <Header/>
@@ -28,10 +28,13 @@ function Team() {
               <text className={styles.infoText}>
                 Pinellas Park, FL 33782
               </text>
+              <text className={styles.infoText}>
+                carter@shrimp-republic.com
+              </text>
             </div>
       <Footer/>
     </div>
   )
 }
 
-export default Team
+export default About
