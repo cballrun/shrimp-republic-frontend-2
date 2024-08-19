@@ -116,11 +116,11 @@
 }
 
 .stage {
-  margin-left: 10vw;
+  margin-left: 7vw;
   align-self: left;
   font-weight: bold;
   font-size: 2.5vh;
-  margin-bottom: 5vh;
+  margin-bottom: 3vh;
   white-space: nowrap;
 }
 
@@ -143,7 +143,7 @@
 
 .toolsHeader {
   color: black;
-  margin-left: 5vh;
+  margin-left: 7vw;
   margin-bottom: 1vh;
   font-weight: bold;
   font-size: 2.5vh;
@@ -152,8 +152,51 @@
 .toolsRow {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   width: 40vw;
   justify-content: left;
   align-content: space-around;
-  margin-left: 3vw;
+  margin-left: 7vw;
 }
+
+
+@media (max-width: 500px) {
+  .description {
+    color: black;
+    margin-bottom: 0vh;
+    font-size: 1.5vh;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .featuresHeader {
+    font-size: 2vh;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  .stage {
+    font-size: 2vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .toolsHeader {
+    font-size: 2vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .stageToolsColumn {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .activeTitleRow {
+    margin-top: -3vh;
+  }
+}
+

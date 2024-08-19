@@ -107,7 +107,7 @@ function Project({
                     </div>
                     <div className={styles.stageToolsColumn}>
                       <div className={styles.stage}>
-                        {`Stage - ${stage}`}
+                        {`Stage: ${stage}`}
                       </div>
                       <div className={styles.toolsHeader}>
                         Project Tools
