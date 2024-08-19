@@ -49,7 +49,14 @@
   pointer-events: none;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1500px) {
+  .grouperLogo {
+    transform: rotate(-90deg);
+    margin-right: -15vw;
+  }
+}
+
+@media (max-width: 800px) {
   .grouperLogo {
     display: none;
   }

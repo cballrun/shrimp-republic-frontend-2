@@ -42,7 +42,7 @@ const projectsData = [
         features: ["Online Pokemon Card Hub", "Collection Showcasing & Tracking", "Card Valuation Algorithm"],
         techs: ["Ruby on Rails", "GraphQL", "PostgreSQL", "JavaScript", "React", "Figma"],
         classification: "Personal",
-        stage: "Wireframing",
+        stage: "In Progress",
         start: "November 2023",
         end: "Ongoing",
     },
