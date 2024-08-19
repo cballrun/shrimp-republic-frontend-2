@@ -185,6 +185,7 @@
 @media (max-width: 500px) {
   .toolsHeader {
     font-size: 2vh;
+    margin-top: -1vh;
   }
 }
 
@@ -199,4 +200,5 @@
     margin-top: -3vh;
   }
 }
+
 
