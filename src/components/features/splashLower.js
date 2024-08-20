@@ -4,29 +4,29 @@ function SplashLower() {
     return (
         <div className={styles.splashTextLower}>
         <div className={styles.appText}>
-            WHETHER YOU'RE ENJOYING
+            WHETHER YOU'RE USING SHORECASTS 
         </div>
         <div className={styles.appText}>
-            CHESSMEITO'S PUZZLES OR
+            TO PLAN A DAY ON THE WATER,
         </div>
         <div className={styles.appText}>
-            PLANNING A FISHING TRIP WITH
+            CHECKING YOUR STATS ON GAMEDRIVE,
         </div>
         <div className={styles.appText}>
-            SHORECASTS, OUR APPLICATIONS
+            OR ENJOYING ONE OF CHESSMEITO'S
         </div>
         <div className={styles.appText}>
-            ARE PURPOSE-BUILT FOR REAL-
+            PUZZLES, OUR APPS ARE PURPOSE-
         </div>
         <div className={styles.appText}>
-            WORLD USE.
+            BUILT FOR REAL WORLD USE.
         </div>
         <div className={styles.appText}>
             <br></br>
-            WHERE TECHNICAL EXPERTISE
+            WHERE TECHNICAL EXPERTISE MEETS
         </div>
         <div className={styles.appText}>
-            MEETS EVERYDAY UTILITY.
+            EVERYDAY UTILITY.
         </div>
     </div>
     )

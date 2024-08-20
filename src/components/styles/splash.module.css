@@ -1,62 +1,81 @@
-.main{
-    color: red;
-    
-   }
-
-.splashTextUpper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    height: 35vh;
-    padding-left: 12vw;
-
+.main {
+  color: red;
 }
-
+.splashTextUpper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 35vh;
+  padding-left: 12vw;
+}
 .exploreBox {
-    text-align: left;
-    font-family: 'Monsterrat', sans-serif;
-    border-left: 0.6vw #0075BE solid;
+  text-align: left;
+  font-family: 'Monsterrat', sans-serif;
+  border-left: 0.6vw #0075BE solid;
 }
 .exploreText {
-    padding-left: 1vw;
-    font-size: 5vh;
-    font-weight: bold;
-    color: black;
-    opacity: 0.7;
-    text-shadow: 0.2vw 0.2vh 0.1vw gray;
+  padding-left: 1vw;
+  font-size: 5vh;
+  font-weight: bold;
+  color: black;
+  opacity: 0.7;
+  text-shadow: 0.2vw 0.2vh 0.1vw gray;
 }
-
 .splashTextLower {
-    color: #0075be;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 30vh;
-    padding-left: 13.8vw;
-    margin-top: -9vh;
-    text-shadow: 0.05vw 0.05vh 0.025vw gray;
+  color: #0075be;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 30vh;
+  padding-left: 13.8vw;
+  margin-top: -9vh;
+  text-shadow: 0.05vw 0.05vh 0.025vw gray;
 }
-
 .appText {
-    font-family: 'Monsterrat', sans-serif;
-    font-size: 1.75vh;
-    font-weight: bold;
-    opacity: 0.8;
+  font-family: 'Monsterrat', sans-serif;
+  font-size: 1.75vh;
+  font-weight: bold;
+  opacity: 0.8;
 }
-
 .grouperLogo {
-    height: auto;
-    max-width: 38vw;
-    min-width: 10vw;
-    position: absolute;
-    top: 46vh;
-    right: 19vw;
-    opacity: 0.4;
-    pointer-events: none;
+  height: auto;
+  max-width: 38vw;
+  min-width: 10vw;
+  position: absolute;
+  top: 46vh;
+  right: 19vw;
+  opacity: 0.4;
+  pointer-events: none;
 }
 
+@media (max-width: 1300px) {
+  .grouperLogo {
+    display: none;
+  }
+}
 
+@media (max-width: 500px) {
+  .exploreText {
+    font-size: 4.5vh;
+  }
+}
 
+@media (max-width: 500px) {
+  .exploreBox {
+    margin-top: -6vh;
+  }
+}
 
-   
+@media (max-width: 500px) {
+  .splashTextLower {
+    margin-top: -12vh;
+  }
+}
+
+@media (max-width: 500px) {
+  .appText {
+    font-size: 2vh
+  }
+}
+

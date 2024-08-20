@@ -9,7 +9,7 @@ function NavBar() {
         <img src={wahooLogo} alt="Wahoo Nav Bar Background" className={styles.wahooLogo} />
         <NavButton path={"/"} text={"HOME"}/>
         <NavButton path={"/projects"} text={"APPS"}/>
-        <NavButton path={"/team"} text={"TEAM"}/>
+        <NavButton path={"/about"} text={"ABOUT"}/>
       </div>
 
 

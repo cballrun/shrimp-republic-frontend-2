@@ -1,0 +1,44 @@
+.main{
+    color: black;   
+    
+   }
+
+.members {
+  max-width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  margin-left: 8vw;
+}
+
+.infoColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -2vh;
+}
+
+.infoHeader {
+
+  color: #E5A272;
+  text-decoration: underline;
+  font-weight: 500;
+  font-size: 1.75vh;
+  margin-bottom: .25vh;
+}
+
+.infoText {
+  
+  color: #29A2CD;
+  font-weight: 300;
+  font-size: 1.5vh;
+  margin-bottom: .25vh;
+}
+
+@media (max-width: 500px) {
+  .infoColumn {
+    margin-top: 5vh;
+  }
+}

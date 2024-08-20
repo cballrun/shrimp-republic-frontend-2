@@ -1,9 +1,14 @@
 .navBar {
     display: flex;
     flex-direction: row;
-    margin-left: 22vw;
+    margin-left: 21vw;
     margin-top: 3vh;
 }
+
+.logoContainer {
+    z-index: 0;
+}
+
 
 .wahooLogo {
     height: 9.5vh;
@@ -14,4 +19,12 @@
     top: 17vh;
     opacity: 0.3;
     pointer-events: none;
+}
+
+@media (max-width: 500px) {
+    .wahooLogo {
+        height: 7vh; 
+        min-width: 15vw; 
+        top: 16vh; 
+    }
 }
