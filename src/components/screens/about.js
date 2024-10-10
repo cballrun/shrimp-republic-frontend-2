@@ -23,10 +23,10 @@ function About() {
                 (850) 582-2223
               </text>
               <text className={styles.infoText}>
-                3165 Grand Ave APT 407
+                4105 84th Ct. E
               </text>
               <text className={styles.infoText}>
-                Pinellas Park, FL 33782
+                Palmetto, FL 34221
               </text>
               <text className={styles.infoText}>
                 carter@shrimp-republic.com
