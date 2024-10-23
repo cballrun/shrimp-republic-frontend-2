@@ -27,6 +27,8 @@
     font-size: 3vh;
     font-weight: bold;
     margin-top: .75vh;
+    margin-right: 5vw;
+    
 }
 
 .chessMeitoIcon {
@@ -35,16 +37,17 @@
     min-width: 1.89vw;
     min-height: 3.52vh;
     margin-right: 2vw;
+    opacity: 0.9;
     pointer-events: none;
 }
 
-.shrimpRepublicIcon {
-    max-width: 4.43vw;
-    max-height: 7.93vh;
+.gameDriveIcon {
+    max-width: 4.87vw;
+    max-height: 8.72;
     min-width: 1.77vw;
     min-height: 3.17vh;
-    padding-top: 0.75vh;
-    margin-right: 2vw;
+    padding-top: 1.5vh;
+    opacity: 0.9;
     pointer-events: none;
 }
 
@@ -53,7 +56,7 @@
     max-height: 7.49vh;
     min-width: 1.84vw;
     min-height: 3.0vh;
-    padding-top: 0.75vh;
+    padding-top: 1vh;
     padding-right: 2.25vw;
     pointer-events: none;
 }
@@ -123,21 +126,23 @@
 }
 
 @media (max-width: 500px) {
-  .shrimpRepublicIcon {
-    max-width: 7vw;
+  .gameDriveIcon {
+    max-width: 9vw;
+    padding-right: 2.5vw;
   }
 }
 
 @media (max-width: 500px) {
   .chessMeitoIcon {
-    max-width: 7vw;
+    max-width: 9vw;
     padding-right: 0.5vw;
+    margin-bottom: -1vh;
   }
 }
 
 @media (max-width: 500px) {
   .shoreCastsIcon {
-    max-width: 7vw;
-    padding-left: 0.75vw;
+    max-width: 9vw;
+    
   }
 }
